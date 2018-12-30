@@ -12,7 +12,7 @@ const lemouvement2018 = {
 const poesie = {
   listsTag: ['Poesies', 'Imprimeries', 'LaBeautéSauveraLeMonde', 'Tech', 'CommingSoon'],
   poste: 'CEO',
-  boite: 'poesie.io',
+  boite: 'Poesie.io',
   color: 'indigo',
   url: 'https://poesie.io'
 }
@@ -34,7 +34,7 @@ const Hamon = {
 }
 
 const ACC = {
-  listsTag: ['CommunicationD’influence', 'ONG/Syndicat/Entreprise', 'Commercial', 'Tech', 'GestionDeProjet', 'élues'],
+  listsTag: ['CommunicationDinfluence', 'ONG/Syndicat/Entreprise', 'Commercial', 'Tech', 'GestionDeProjet', 'élues'],
   poste: 'Co-fondateur',
   boite: 'A Contre courant',
   color: 'indigo',
@@ -136,19 +136,19 @@ const CardCEO = ({
 }) => (
   <div className="bg-blue-lighter hover:bg-blue-light h-full p-2 mr-4 xl:mr-0 xl:ml-8 rounded shadow-md mt-5 xl:-mt-10 xl:w-1/4 pt-5 pb-4 pr-4 pl-4">
     <a className="block no-outline no-underline" target="_blank" href={url}>
-      <h3 className="pb-3 text-normal text-pink-darker font-serif tracking-wide">{poste}</h3>
+      <h3 className="pb-3 text-normal text-blue-darker font-serif tracking-wide">{poste}</h3>
       <div className="">
         <ul className="list-reset text-pink-dark tracking-wide leading-tight italic font-bold text-sm">
           {
             listsTag.map((l, i) => (
-              <li key={i} className="text-blue-darker tracking-wide leading-tight text-sm font-bold">
+              <li key={i} className="text-blue-dark tracking-wide leading-tight text-sm font-bold">
               #
                 {` ${l}`}
               </li>
             )) }
         </ul>
       </div>
-      <h3 className="text-normal text-right text-pink-darker ">
+      <h3 className="text-normal text-right text-blue-darker ">
         {boite}
       </h3>
     </a>
