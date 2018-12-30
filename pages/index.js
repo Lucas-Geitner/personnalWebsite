@@ -89,10 +89,10 @@ const Card = ({
     <a className="block no-outline no-underline" target="_blank" href={url}>
       <h3 className="pb-3 text-normal text-blue-darker font-serif tracking-wide">{poste}</h3>
       <div className="">
-        <ul className="list-reset text-indigo-dark tracking-wide leading-tight italic font-bold text-sm">
+        <ul className="list-reset text-indigo-dark tracking-wide leading-tight italic  text-sm">
           {
             listsTag.map((l, i) => (
-              <li key={i} className="text-indigo-dark tracking-wide leading-tight text-sm font-bold">
+              <li key={i} className="text-indigo-dark tracking-wide leading-tight text-sm ">
               #
                 {` ${l}`}
               </li>
@@ -113,10 +113,10 @@ const CardEtudiant = ({
     <a className="block no-outline no-underline" target="_blank" href={url}>
       <h3 className="pb-3 text-normal text-red-darker font-serif tracking-wide">{poste}</h3>
       <div className="">
-        <ul className="list-reset text-pink-dark tracking-wide leading-tight italic font-bold text-sm">
+        <ul className="list-reset text-pink-dark tracking-wide leading-tight italic  text-sm">
           {
             listsTag.map((l, i) => (
-              <li key={i} className="text-indigo tracking-wide leading-tight text-sm font-bold">
+              <li key={i} className="text-indigo tracking-wide leading-tight text-sm ">
               #
                 {` ${l}`}
               </li>
@@ -138,10 +138,10 @@ const CardCEO = ({
     <a className="block no-outline no-underline" target="_blank" href={url}>
       <h3 className="pb-3 text-normal text-blue-darker font-serif tracking-wide">{poste}</h3>
       <div className="">
-        <ul className="list-reset text-pink-dark tracking-wide leading-tight italic font-bold text-sm">
+        <ul className="list-reset text-pink-dark tracking-wide leading-tight italic  text-sm">
           {
             listsTag.map((l, i) => (
-              <li key={i} className="text-blue-dark tracking-wide leading-tight text-sm font-bold">
+              <li key={i} className="text-blue-dark tracking-wide leading-tight text-sm ">
               #
                 {` ${l}`}
               </li>
