@@ -22,15 +22,15 @@ export default () => (
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title> Lucas Geitner </title>
     <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon.ico" />
-    <meta name="description" content="Curieux" />
+    <meta name="description" content="~ le mouvement, poesie.io, 3A, The Family, A contre courant, Hamon2017" />
     <meta property="og:title" content="Lucas Geitner" />
-    <meta property="og:description" content="Curieux" />
+    <meta property="og:description" content="~ le mouvement, poesie.io, 3A, The Family, A contre courant, Hamon2017" />
     <meta property="og:image" content="https://geitner.io/static/lg.png" />
     <meta property="og:url" content="https://geitner.io" />
     <meta property="og:site_name" content="Lucas Geitner" />
     <meta name="twitter:title" content="Lucas Geitner" />
     <meta name="twitter:image" content="https://geitner.io/static/lg.png" />
-    <meta name="twitter:description" content="Curieux" />
+    <meta name="twitter:description" content="~ le mouvement, poesie.io, 3A, The Family, A contre courant, Hamon2017" />
     <meta name="twitter:url" content="https://geitner.io" />
     <meta name="twitter:card" content="summary_large_image" />
     {/* fav */}

@@ -75,7 +75,7 @@ const Bac = {
   url: 'https://fr.wikipedia.org/wiki/Marsanne_(Dr%C3%B4me)#/media/File:Marsanne_village.JPG'
 }
 const Nimes = {
-  listsTag: ['Litterature', 'Philosophie', 'Histoire', 'Geographie', 'Nietzche/Montaingne', 'Pascal'],
+  listsTag: ['Litterature', 'Philosophie', 'Histoire', 'Geographie', 'Nietzche/Montaigne', 'Pascal'],
   poste: 'Etudiant',
   boite: 'Nîmes',
   color: 'indigo',
