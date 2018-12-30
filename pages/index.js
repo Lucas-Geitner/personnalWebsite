@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const lemouvement2018 = {
-  listsTag: ['IlEstEncoreTemps', 'OnEstPret', 'Stripe', 'Infrastructure', 'Campagne'],
+  listsTag: ['IlEstEncoreTemps', 'OnEstPret', 'Stripe', 'Infrastructure'],
   poste: 'CTO',
   boite: '~ le mouvement',
   color: 'indigo',
@@ -10,7 +10,7 @@ const lemouvement2018 = {
 }
 
 const poesie = {
-  listsTag: ['Poesies', 'Imprimeries', 'LaBeautéSauveraLeMonde', 'Tech', 'CommingSoon'],
+  listsTag: ['Poesies', 'LaBeautéSauveraLeMonde', 'Tech', 'CommingSoon'],
   poste: 'CEO',
   boite: 'Poesie.io',
   color: 'indigo',
@@ -18,7 +18,7 @@ const poesie = {
 }
 
 const AAA = {
-  listsTag: ['GestionDeProjet', 'Communication', 'ESS', 'Buisness', 'CommingSoon'],
+  listsTag: ['GestionDeProjet', 'Communication', 'ESS', 'Buisness'],
   poste: 'Etudiant',
   boite: '3A',
   color: 'indigo',
@@ -26,7 +26,7 @@ const AAA = {
 }
 
 const Hamon = {
-  listsTag: ['CampagnePresidentiel', 'Strat', 'ReseauxSociaux', 'mobilisation', 'Veille', 'idées'],
+  listsTag: ['CampagnePresidentiel', 'Strat & ReseauxSociaux', 'VeilleEtMobilisation', 'idées'],
   poste: 'Chargé de mission',
   boite: 'Hamon',
   color: 'indigo',
@@ -34,7 +34,7 @@ const Hamon = {
 }
 
 const ACC = {
-  listsTag: ['CommunicationDinfluence', 'ONG/Syndicat/Entreprise', 'Commercial', 'Tech', 'GestionDeProjet', 'élues'],
+  listsTag: ['CommunicationDinfluence', 'ONG/Syndicat/Entreprise/élues', 'Commercial', 'GestionDeProjet'],
   poste: 'Co-fondateur',
   boite: 'A Contre courant',
   color: 'indigo',
@@ -43,7 +43,7 @@ const ACC = {
 
 
 const Etudiant = {
-  listsTag: ['Code', 'RubyAndRails', 'Alumni', 'Tech', 'HardSkill'],
+  listsTag: ['Code', 'RubyAndRails', 'Tech', 'HardSkill'],
   poste: 'Etudiant',
   boite: 'Le Wagon',
   color: 'indigo',
@@ -51,7 +51,7 @@ const Etudiant = {
 }
 
 const Freelance = {
-  listsTag: ['React', 'SAAS', 'BigData', 'DeepLearning', 'SuperEquipe'],
+  listsTag: ['React', 'SAAS', 'DeepLearning', 'SuperEquipe'],
   poste: 'Freelance',
   boite: 'Heuritech',
   color: 'indigo',
@@ -59,7 +59,7 @@ const Freelance = {
 }
 
 const LION = {
-  listsTag: ['GrowthHacking', 'Sales', 'Dev', 'Startup', 'SavoirEtre'],
+  listsTag: ['GrowthHacking/Sales', 'Dev', 'Startup', 'SavoirEtre'],
   poste: 'Etudiant',
   boite: 'LION - The familly',
   color: 'indigo',
@@ -68,14 +68,14 @@ const LION = {
 
 
 const Bac = {
-  listsTag: ['ES', 'MentionBien', 'Lyon', 'Montelimar', 'Cleon', 'Marsanne'],
+  listsTag: ['ES','MentionBien',  'Lyon/Montelimar/Cleon/Marsanne'],
   poste: 'Bac',
   boite: 'Lyon',
   color: 'indigo',
   url: 'https://fr.wikipedia.org/wiki/Marsanne_(Dr%C3%B4me)#/media/File:Marsanne_village.JPG'
 }
 const Nimes = {
-  listsTag: ['Litterature', 'Philosophie', 'Histoire', 'Geographie', 'Nietzche/Montaigne', 'Pascal'],
+  listsTag: ['LitteratureHistoire', 'PhilosophieGeographie', 'NietzcheMontaignePascal'],
   poste: 'Etudiant',
   boite: 'Nîmes',
   color: 'indigo',
