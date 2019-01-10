@@ -18,7 +18,7 @@ const poesie = {
 }
 
 const AAA = {
-  listsTag: ['GestionDeProjet', 'Communication', 'ESS', 'Buisness'],
+  listsTag: ['GestiondesRichesseHumaines', 'Management/GestionFinancière', 'ESS', 'Buisness'],
   poste: 'Etudiant',
   boite: '3A',
   color: 'indigo',
@@ -61,7 +61,7 @@ const Freelance = {
 const LION = {
   listsTag: ['GrowthHacking/Sales', 'Dev', 'Startup', 'SavoirEtre'],
   poste: 'Etudiant',
-  boite: 'LION - The familly',
+  boite: 'LION - The Family',
   color: 'indigo',
   url: 'https://joinlion.co/'
 }
