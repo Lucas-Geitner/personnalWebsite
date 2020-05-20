@@ -5,7 +5,6 @@ const lemouvement2018 = {
   listsTag: ['IlEstEncoreTemps', 'OnEstPret', 'Stripe', 'Infrastructure'],
   poste: 'CTO',
   boite: '~ le mouvement',
-  color: 'indigo',
   url: 'https://lemouvement.ong'
 }
 
@@ -13,7 +12,6 @@ const poesie = {
   listsTag: ['Poesies', 'LaBeautéSauveraLeMonde', 'Tech', 'CommingSoon'],
   poste: 'CEO',
   boite: 'Poesie.io',
-  color: 'indigo',
   url: 'https://poesie.io'
 }
 
@@ -21,7 +19,6 @@ const AAA = {
   listsTag: ['GestiondesRichesseHumaines', 'Management/GestionFinancière', 'ESS', 'Buisness'],
   poste: 'Etudiant',
   boite: '3A',
-  color: 'indigo',
   url: 'http://www.ecole3a.edu/formation/bac-4-5-manager-de-projets-internationaux/'
 }
 
@@ -29,7 +26,6 @@ const Hamon = {
   listsTag: ['CampagnePresidentiel', 'Strat & ReseauxSociaux', 'VeilleEtMobilisation', 'idées'],
   poste: 'Chargé de mission',
   boite: 'Hamon',
-  color: 'indigo',
   url: 'https://www.benoithamon2017.fr/'
 }
 
@@ -37,7 +33,6 @@ const ACC = {
   listsTag: ['CommunicationDinfluence', 'ONG/Syndicat/Entreprise/élues', 'Commercial', 'GestionDeProjet'],
   poste: 'Co-fondateur',
   boite: 'A Contre courant',
-  color: 'indigo',
   url: 'https://acc.geitner.io'
 }
 
@@ -46,15 +41,13 @@ const Etudiant = {
   listsTag: ['Code', 'RubyAndRails', 'Tech', 'HardSkill'],
   poste: 'Etudiant',
   boite: 'Le Wagon',
-  color: 'indigo',
   url: 'https://www.lewagon.com/fr'
-}
+} 
 
 const Freelance = {
   listsTag: ['React', 'SAAS', 'DeepLearning', 'SuperEquipe'],
   poste: 'Freelance',
   boite: 'Heuritech',
-  color: 'indigo',
   url: 'https://www.heuritech.com/'
 }
 
@@ -62,7 +55,6 @@ const LION = {
   listsTag: ['GrowthHacking/Sales', 'Dev', 'Startup', 'SavoirEtre'],
   poste: 'Etudiant',
   boite: 'LION - The Family',
-  color: 'indigo',
   url: 'https://joinlion.co/'
 }
 
@@ -71,19 +63,17 @@ const Bac = {
   listsTag: ['ES','MentionBien',  'Lyon/Montelimar/Cleon/Marsanne'],
   poste: 'Bac',
   boite: 'Lyon',
-  color: 'indigo',
   url: 'https://fr.wikipedia.org/wiki/Marsanne_(Dr%C3%B4me)#/media/File:Marsanne_village.JPG'
 }
 const Nimes = {
   listsTag: ['LitteratureHistoire', 'PhilosophieGeographie', 'NietzcheMontaignePascal'],
   poste: 'Etudiant',
   boite: 'Nîmes',
-  color: 'indigo',
   url: 'http://journal.alinareyes.net/2015/11/06/albert-camus-les-amandiers/'
 }
 
 const Card = ({
-  listsTag, poste, boite, color, url
+  listsTag, poste, boite, url
 }) => (
   <div className="hover:border-gray-400 hover:bg-gray-200 border-gray-300	border h-full p-2 mr-4 xl:mr-0 xl:ml-8 rounded mt-5 xl:-mt-10 xl:w-1/4 pt-5 pb-4 pr-4 pl-4">
     <a className="block no-outline no-underline" target="_blank" href={url}>

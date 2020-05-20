@@ -5,10 +5,13 @@
 @import "tailwindcss/utilities";
 
 body {
-  @apply bg-gray-100;
+  margin: 0 !important;
 }
 
-
+body {
+  @apply bg-gray-100;
+  margin: 0 !important;
+}
 
 /* Make clicks pass-through */
 #nprogress {

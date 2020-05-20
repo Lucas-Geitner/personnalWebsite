@@ -1,7 +1,0 @@
-{
-    "version": 2,
-    "alias": "https://geitner.io",
-    "builds": [
-      { "src": "next.config.js", "use": "@now/next" }
-    ]
-  }  
