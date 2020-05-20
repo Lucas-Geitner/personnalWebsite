@@ -1,47 +1,12 @@
 
-body{ 
-  font-family: 'Open Sans', sans-serif !important;
-}
 
-@tailwind preflight;
-@tailwind components;
-@tailwind utilities;
-
-body{ 
-  font-family: 'Open Sans', sans-serif !important;
-}
-p{ 
-  font-family: 'Open Sans', sans-serif !important;
-}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 body {
-  @apply bg-grey-light;
+  @apply bg-gray-100;
 }
-
-.ais-Hits-list{
-  @apply list-reset ml-0 mt-10 bg-white;
-}
-
-.ais-SearchBox-input:focus{
-  @apply outline-none bg-grey-light;
-}
-
-.ais-SearchBox-input{
-  @apply bg-grey-light text-5xl font-serif;
-}
-.ais-SearchBox-input::placeholder{
-  @apply bg-grey-light text-5xl font-serif text-black  opacity-75;
-}
-
-.ais-Hits-item{
-  @apply bg-white shadow-md ml-0 mt-0 mb-0 text-pink pl-6 pr-6 pt-6 pb-6 text-xl font-serif flex items-center;
-}
-
-.ais-Hits-item:nth-child(even) {
-  background-color: #FBFBFB !important
-}  
-
-
 
 
 
