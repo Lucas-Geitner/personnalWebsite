@@ -98,13 +98,12 @@ const Card = ({
 
 const Index = () => (
   <>
-  <div className="mb-10 border-gray-300	border">
+  <div className="mb-10 border-gray-300	border-b">
     <div className="mb-5 pl-4 container mx-auto">
-      <div className="mt-10   xl:block flex flex-col">
-        <h1 className="font-serif text-3xl pb-2 mb-1 uppercase mt-0 pt-0 tracking-wide text-blue-darker"> Lucas Geitner </h1>
-        <p className="text-lg font-light leading-normal md:w-2/5  ">
-            Éditeur poétique et politique 
-        </p>
+      <div className="mt-10  xl:block flex flex-col">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-900 font-medium md:font-normal leading-none"> Lucas Geitner </h1>
+        <p className="text-lg font-light leading-normal md:w-2/5  md:font-light text-gray-700 pt-4 ">
+            Éditeur poétique et politique  </p>
       </div>
     </div>
   </div>
@@ -112,7 +111,7 @@ const Index = () => (
 
   <div className="mb-12 container mx-auto">
     <div className="mt-10 xl:mt-12 xl:-ml-10 xl:block flex flex-col">
-      <h3 className="pl-4 xl:pl-0">2019 </h3>
+      <h3 className="pl-4 xl:pl-0 text-gray-900 ">2019 </h3>
       <div className="flex xl:ml-10 pl-2 pb:pl-4 flex-col xl:flex-row">
         <Card
           listsTag={lemouvement2018.listsTag}
@@ -133,7 +132,7 @@ const Index = () => (
     </div>
 
     <div className="mt-10 xl:mt-20 xl:-ml-10 xl:block flex flex-col">
-      <h3 className="pl-4 xl:pl-0">2018 </h3>
+      <h3 className="pl-4 xl:pl-0 text-gray-900">2018 </h3>
       <div className="flex xl:ml-10 pl-2 pb:pl-4 flex-col xl:flex-row">
         <Card
           listsTag={AAA.listsTag}
@@ -154,7 +153,7 @@ const Index = () => (
     </div>
 
     <div className="mt-10 xl:mt-20 xl:-ml-10 xl:block flex flex-col">
-      <h3 className="pl-4 xl:pl-0">2017 </h3>
+      <h3 className="pl-4 xl:pl-0 text-gray-900">2017 </h3>
       <div className="flex xl:ml-10 pl-2 pb:pl-4 flex-col xl:flex-row">
         <Card
           listsTag={Hamon.listsTag}
@@ -175,7 +174,7 @@ const Index = () => (
 
 
     <div className="mt-10 xl:mt-20 xl:-ml-10 xl:block flex flex-col">
-      <h3 className="pl-4 xl:pl-0">2016 </h3>
+      <h3 className="pl-4 xl:pl-0 text-gray-900">2016 </h3>
       <div className="flex xl:ml-10 pl-2 pb:pl-4 flex-col xl:flex-row">
         <Card
           listsTag={Etudiant.listsTag}
@@ -204,7 +203,7 @@ const Index = () => (
     </div>
 
     <div className="mt-10 xl:mt-20 xl:-ml-10 xl:block flex flex-col">
-      <h3 className="pl-4 xl:pl-0"> > 2016 </h3>
+      <h3 className="pl-4 xl:pl-0 text-gray-900"> > 2016 </h3>
       <div className="flex xl:ml-10 pl-2 pb:pl-4 flex-col xl:flex-row">
         <Card
           listsTag={Bac.listsTag}

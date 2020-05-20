@@ -9,8 +9,8 @@ body {
 }
 
 body {
-  @apply bg-gray-100;
   margin: 0 !important;
+  @apply bg-gray-100;
 }
 
 /* Make clicks pass-through */
