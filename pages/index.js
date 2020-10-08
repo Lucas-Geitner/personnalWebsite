@@ -1,5 +1,19 @@
 import React from 'react'
-import Header from '../components/Header'
+
+const laReprise = {
+  listsTag: ['Comprendre', 'Analyser', 'Dissiper les malentendus', 'Média'],
+  poste: 'Bénévole',
+  boite: 'la reprise',
+  url: 'https://lareprise.org/'
+}
+
+const maisonEnProvence = {
+  listsTag: ["Gites d'hotes", 'Entreprise familial', 'Drôme provencal', 'Réservation'],
+  poste: 'Chef de projet',
+ boite: 'maison en provence',
+  url: 'https://maison-en-provence.net/'
+}
+
 
 const lemouvement2018 = {
   listsTag: ['IlEstEncoreTemps', 'OnEstPret', 'Stripe', 'Infrastructure'],
@@ -10,7 +24,7 @@ const lemouvement2018 = {
 
 const poesie = {
   listsTag: ['Poesies', 'LaBeautéSauveraLeMonde', 'Tech', 'CommingSoon'],
-  poste: 'CEO',
+  poste: 'Co-fondateur',
   boite: 'Poesie.io',
   url: 'https://poesie.io'
 }
@@ -25,7 +39,7 @@ const AAA = {
 const Hamon = {
   listsTag: ['CampagnePresidentiel', 'Strat & ReseauxSociaux', 'VeilleEtMobilisation', 'idées'],
   poste: 'Chargé de mission',
-  boite: 'Hamon',
+  boite: 'Benoit Hamon',
   url: 'https://www.benoithamon2017.fr/'
 }
 
@@ -110,6 +124,43 @@ const Index = () => (
 
 
   <div className="mb-12 container mx-auto">
+
+        
+    <div className="mt-10 xl:mt-12 xl:-ml-10 xl:block flex flex-col">
+      <h3 className="pl-4 xl:pl-0 text-gray-900 ">2020 </h3>
+      <div className="flex xl:ml-10 pl-2 pb:pl-4 flex-col xl:flex-row">
+        {/* Poesie.io */}
+        <Card
+          listsTag={poesie.listsTag}
+          poste={poesie.poste}
+          boite={poesie.boite}
+          color={poesie.color}
+          url={poesie.url}
+        />
+        {/* La reprise */}
+        <Card
+          listsTag={laReprise.listsTag}
+          poste={laReprise.poste}
+          boite={laReprise.boite}
+          color={laReprise.color}
+          url={laReprise.url}
+        />
+
+        {/* Petit gustave */}
+      <Card
+          listsTag={maisonEnProvence.listsTag}
+          poste={maisonEnProvence.poste}
+          boite={maisonEnProvence.boite}
+          color={maisonEnProvence.color}
+          url={maisonEnProvence.url}
+        />
+
+      </div>
+    </div>
+
+
+
+
     <div className="mt-10 xl:mt-12 xl:-ml-10 xl:block flex flex-col">
       <h3 className="pl-4 xl:pl-0 text-gray-900 ">2019 </h3>
       <div className="flex xl:ml-10 pl-2 pb:pl-4 flex-col xl:flex-row">
